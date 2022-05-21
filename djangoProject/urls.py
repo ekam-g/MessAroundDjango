@@ -20,6 +20,7 @@ from djangoProject import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home.home),
+    path('home',home.home),
+    path('data', home.data),
 
 ]
