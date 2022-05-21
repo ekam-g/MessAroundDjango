@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 
 def home(request):
-    print("fard")
-    return render(request, 'templates/home.html')
+    print("Home Page Requested")
+    return render(request, 'home.html')
